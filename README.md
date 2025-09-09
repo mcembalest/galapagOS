@@ -1,6 +1,6 @@
-# Galapago
+# galápagOS
 
-![galapago](assets/galapago.png)
+![galápago](assets/galapago.png)
 
 A Basic Computer Development Ecosystem
 
