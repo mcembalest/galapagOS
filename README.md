@@ -1,6 +1,6 @@
 # galápagOS Home
 
-![gOS](assets/gOS.png)
+![gOS](public/assets/gOS.png)
 
 The central hub for the galápagOS ecosystem - a launcher for all apps and a showroom for UI components.
 
