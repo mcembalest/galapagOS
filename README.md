@@ -1,41 +1,65 @@
-# galápagOS
+# galápagOS Home
 
-![galápago](assets/galapago.png)
+![gOS](assets/gOS.png)
 
-A Basic Computer Development Ecosystem
+The central hub for the galápagOS ecosystem - a launcher for all apps and a showroom for UI components.
 
-Each environment in the ecosystem is constrained to output one kind of artifact.
+## Purpose
 
-## Environments
+This repository serves two main functions:
 
-### Environment 1: ***Woodboard***
-	1. Ideation environment for note generation
-	2. Output: text (.md)
+1. **App Launcher**: Click on app icons to access different environments in the galápagOS ecosystem
+2. **UI Showroom**: Demonstrate and test the gOS UI components (panels, cards, collection browsers, etc.) on a single home page
 
-### Environment 2: ***Seafoam***
-	1. Artistic environment for image generation
-	2. Output: image (.png)
+## Ecosystem Apps
 
-### Environment 3: ***Tunafork***
-	1. Musical environment for audio clip generation
-	2. Output: audio (.mp3)
+### ***Woodboard***
+- Ideation environment for note generation
+- Output: text (.md)
 
-### Environment 4: ***Campfire***
-	1. Cinematic environment for video clip generation
-	2. Output: video (.mp4)
+### ***Seafoam***
+- Artistic environment for image generation
+- Output: image (.png)
 
-### Environment 5: ***Slidedeck***
-	1. Professional work environment for report generation
-	2. Output: report (.pdf)
+### ***Tunafork***
+- Musical environment for audio clip generation
+- Output: audio (.mp3)
 
-### Environment 6: ***Logstore***
-	1. Data querying environment for data pipeline generation
-	2. Output: data (.sql)
+### ***Campfire***
+- Cinematic environment for video clip generation
+- Output: video (.mp4)
 
-### Environment 7: ***Bytestorm***
-	1. Functional prototyping environment for software generation
-	2. Output: code (.zip)
+### ***Slidedeck***
+- Professional work environment for report generation
+- Output: report (.pdf)
 
-### Environment 8: ***Cerebella***
-	1. Monitoring and scrutiny environment for deployment maintenance
-	2. Output: app (.com)
+### ***Logstore***
+- Data querying environment for data pipeline generation
+- Output: data (.sql)
+
+### ***Bytestorm***
+- Functional prototyping environment for software generation
+- Output: code (.zip)
+
+### ***Cerebella***
+- Monitoring and scrutiny environment for deployment maintenance
+- Output: app (.com)
+
+## UI Components
+
+The platform provides reusable UI components that apps can use:
+
+- **Panel**: Toggle-able drawer with resizer
+- **Card**: Draggable and resizable canvas elements
+- **Collection Browser**: Grid/list view for collections with drag & drop
+- **Status Monitoring**: Real-time app health checking
+- **DnD System**: Delegated drag sources and drop targets
+
+## Getting Started
+
+```bash
+npm install
+npm start
+```
+
+Visit `http://localhost:4000` to access the launcher and component showroom.

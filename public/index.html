@@ -1,0 +1,155 @@
+<meta charset="utf-8">
+<title>galapagOS Home</title>
+<link rel="stylesheet" href="styles.css">
+
+<div class="gos-home">
+
+  <main class="gos-main">
+    <section class="app-launcher">
+      <h2>gOS Apps</h2>
+      <br/>
+      <div class="saved-grid app-grid">
+        <button class="saved-tile app-tile" data-url="http://localhost:3001" data-app="woodboard">
+          <div class="tile-thumb">
+            🖨️
+          </div>
+          <div class="tile-body">
+            <div class="tile-name">Blueprinter</div>
+            <div class="tile-caption">Plan</div>
+            <span id="woodboard-status" class="status-pill status-offline">Offline</span>
+          </div>
+        </button>
+
+        <button class="saved-tile app-tile" data-url="http://localhost:3000" data-app="seafoam">
+          <div class="tile-thumb">
+            🎨
+          </div>
+          <div class="tile-body">
+            <div class="tile-name">Seafoam</div>
+            <div class="tile-caption">Image</div>
+            <span id="seafoam-status" class="status-pill status-offline">Offline</span>
+          </div>
+        </button>
+
+        <button class="saved-tile app-tile" data-url="http://localhost:3002" data-app="tunafork">
+          <div class="tile-thumb">
+            🎵
+          </div>
+          <div class="tile-body">
+            <div class="tile-name">Tunafork</div>
+            <div class="tile-caption">Audio</div>
+            <span id="tunafork-status" class="status-pill status-offline">Offline</span>
+          </div>
+        </button>
+
+        <button class="saved-tile app-tile" data-url="http://localhost:3003" data-app="campfire">
+          <div class="tile-thumb">
+            🎬
+          </div>
+          <div class="tile-body">
+            <div class="tile-name">Campfire</div>
+            <div class="tile-caption">Video</div>
+            <span id="campfire-status" class="status-pill status-offline">Offline</span>
+          </div>
+        </button>
+
+        <button class="saved-tile app-tile" data-url="http://localhost:3004" data-app="slidedeck">
+          <div class="tile-thumb">
+            📊
+          </div>
+          <div class="tile-body">
+            <div class="tile-name">Slidedeck</div>
+            <div class="tile-caption">Report</div>
+            <span id="slidedeck-status" class="status-pill status-offline">Offline</span>
+          </div>
+        </button>
+
+        <button class="saved-tile app-tile" data-url="http://localhost:3005" data-app="logstore">
+          <div class="tile-thumb">
+            📈
+          </div>
+          <div class="tile-body">
+            <div class="tile-name">Logstore</div>
+            <div class="tile-caption">Data</div>
+            <span id="logstore-status" class="status-pill status-offline">Offline</span>
+          </div>
+        </button>
+
+        <button class="saved-tile app-tile" data-url="http://localhost:3006" data-app="bytestorm">
+          <div class="tile-thumb">
+            ⚡
+          </div>
+          <div class="tile-body">
+            <div class="tile-name">Bytestorm</div>
+            <div class="tile-caption">Code</div>
+            <span id="bytestorm-status" class="status-pill status-offline">Offline</span>
+          </div>
+        </button>
+
+        <button class="saved-tile app-tile" data-url="http://localhost:3007" data-app="cerebella">
+          <div class="tile-thumb">
+            🔍
+          </div>
+          <div class="tile-body">
+            <div class="tile-name">Cerebella</div>
+            <div class="tile-caption">Control</div>
+            <span id="cerebella-status" class="status-pill status-offline">Offline</span>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="ui-showroom">
+      <h2>gOS Components</h2>
+
+      <div class="showroom-section">
+        <button class="drawer-toggle" id="panel-toggle">Toggle Panel</button>
+        <div class="library-panel" id="demo-panel">
+          <div class="panel-grabber"></div>
+          <div class="panel-body">
+            <p>This is a panel that can be toggled and resized up and down.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="showroom-section">
+        <h3>Card</h3>
+        <div class="canvas-container">
+          <div class="canvas-card demo-card" style="left: 50px; top: 50px; width: 300px; height: 200px;">
+            <div class="card-drag-handle">Draggable card</div>
+            <div class="card-content">
+              <p>This card is draggable and resizable.</p>
+            </div>
+            <div class="card-resize-handle"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="showroom-section">
+        <h3>File Browser</h3>
+        <div class="view-toggle">
+          <button class="toggle-btn active" data-mode="grid">Grid</button>
+          <button class="toggle-btn" data-mode="list">List</button>
+        </div>
+        <div class="saved-grid demo-collection">
+          <div class="saved-tile">
+            <div class="tile-thumb">📄</div>
+            <div class="tile-body">
+              <div class="tile-name">Demo Item 1</div>
+              <div class="tile-caption">Sample content</div>
+            </div>
+          </div>
+          <div class="saved-tile">
+            <div class="tile-thumb">🖼️</div>
+            <div class="tile-body">
+              <div class="tile-name">Demo Item 2</div>
+              <div class="tile-caption">Another sample</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script type="module" src="js/home.js"></script>
