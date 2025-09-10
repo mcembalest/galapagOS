@@ -1,4 +1,4 @@
-galapagOS Platform Modules
+galápagOS Platform Modules
 
 Overview
 

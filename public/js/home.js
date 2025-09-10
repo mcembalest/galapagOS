@@ -13,14 +13,11 @@ appTiles.forEach(tile => {
 
 // Health checking for all apps
 const appConfigs = [
-  { app: 'woodboard', url: 'http://localhost:3001', statusId: 'woodboard-status' },
   { app: 'seafoam', url: 'http://localhost:3000', statusId: 'seafoam-status' },
   { app: 'tunafork', url: 'http://localhost:3002', statusId: 'tunafork-status' },
-  { app: 'campfire', url: 'http://localhost:3003', statusId: 'campfire-status' },
   { app: 'slidedeck', url: 'http://localhost:3004', statusId: 'slidedeck-status' },
   { app: 'logstore', url: 'http://localhost:3005', statusId: 'logstore-status' },
   { app: 'bytestorm', url: 'http://localhost:3006', statusId: 'bytestorm-status' },
-  { app: 'cerebella', url: 'http://localhost:3007', statusId: 'cerebella-status' }
 ];
 
 async function ping(url) {
@@ -42,7 +39,7 @@ function startAppPolling() {
         setServerStatus(pill, online);
       };
       update();
-      setInterval(update, 10000);
+      setInterval(update, 2000);
     }
   });
 }
